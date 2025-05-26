@@ -1,0 +1,99 @@
+body{
+    color: white;
+    background-image: url(img/fundo-pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+    margin-bottom: 8px;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    background-image: url(img/fundo-preto.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.foto-cabecalho{
+    border-radius: 20px;
+    max-height: 100px;
+    width: auto;
+}
+
+.texto{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.conteudos1{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    display: flex;  
+    width: 100%;    
+}
+
+.conteudos2{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;  
+    width: 100%;  
+}
+
+.conteudos3{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    display: flex;  
+    width: 100%;  
+}
+
+.conteudos1 span, .conteudos2 span, .conteudos3 span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.texto1 ,.texto2 ,.texto3{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
