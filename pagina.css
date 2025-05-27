@@ -97,3 +97,16 @@ nav {
     padding: 10px;
     border-radius: 10px;
 }
+
+.logo-rodape{
+    width: 25px;
+    position: relative;
+    top: 4px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.img-roda{
+    text-decoration: none;
+    color: #fff;
+}

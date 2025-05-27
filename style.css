@@ -109,3 +109,16 @@ input{
     background-color: transparent;
     color: white;
 }
+
+.logo-rodape{
+    width: 25px;
+    position: relative;
+    top: 4px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.img-roda{
+    text-decoration: none;
+    color: #fff;
+}

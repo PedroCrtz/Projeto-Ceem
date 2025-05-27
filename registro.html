@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar - Automação Hoje</title>
+    <link rel="icon" href="img/login_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" type="image/png">
 </head>
+<link rel="stylesheet" href="registro.css">
 <body>
-    Nao feito
+    <main class="container">
+        <form action="index.html" method="POST">
+            <h1>Registro</h1>
+                <div class="input-box">
+                  <input type="name" placeholder="Nome" required>
+                  <img src="img/badge_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>   
+                <div class="input-box">
+                    <input type="password" placeholder="Senha" required>  
+                   <img src="img/lock_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                 <div class="input-box">
+                    <input type="date" class="sem-icone" placeholder="Data de Nascimento" required  pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/([0-9]{4})$">  
+                   <img src="img/calendar_month_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                 <div class="input-box">
+                    <input type="tel" placeholder="Telefone" required pattern="^\d{10,11}$">  
+                   <img src="img/call_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                  <div class="input-box">
+                    <input type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">  
+                   <img src="img/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Confirm Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">  
+                   <img src="img/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <div>
+                  <button class="btn" type="submit">Entrar</button>
+                </div>
+       </form>
+    </main>
+    <footer>Este site foi desenvolvido Por Pedro Cortez <a target="_blank" class="img-roda" href="https://github.com/PedroCrtz"><img class="logo-rodape" src="img/icons8-github.svg" alt="">GitHub</a><a target="_blank" class="img-roda" href="https://www.instagram.com/pedroragusa_/"><img class="logo-rodape" src="img/instagram.png" alt="">Instagram</a></footer>
 </body>
 </html>
