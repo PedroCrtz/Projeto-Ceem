@@ -171,3 +171,20 @@ input{
     margin-top: -50px;
     
 }
+
+.btn{
+    margin-left: 125px;
+}
+
+.voltar{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn2{
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 75px;
+    background-color: transparent;
+    color: white;   
+}
